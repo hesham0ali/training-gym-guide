@@ -1,0 +1,96 @@
+{
+  "exercises": {
+    "bench-press": { "name": "Bench Press" },
+    "barbell-row": { "name": "Barbell Row" },
+    "seated-db-shoulder-press": { "name": "Seated Overhead Dumbbell Press" },
+    "pec-dec": { "name": "Pec Dec" },
+    "v-bar-lat-pulldown": { "name": "V-Bar Lat Pull Down" },
+    "side-lateral-raise": { "name": "Side Lateral Raise" },
+    "reverse-pec-dec": { "name": "Reverse Pec Dec" },
+    "cable-tricep-extension": { "name": "Cable Tricep Extensions" },
+    "cable-curl": { "name": "Cable Curls" },
+
+    "squat": { "name": "Squats" },
+    "stiff-leg-deadlift": { "name": "Stiff Leg Deadlifts" },
+    "leg-extension": { "name": "Leg Extensions" },
+    "leg-curl": { "name": "Leg Curl" },
+    "standing-calf-raise": { "name": "Standing Calf Raise" },
+    "seated-calf-raise": { "name": "Seated Calf Raise" },
+    "cable-pull-through": { "name": "Cable Pull Through w/Rope" },
+    "cable-crunch": { "name": "Cable Crunch" },
+
+    "incline-db-bench-press": { "name": "Incline Dumbbell Bench Press" },
+    "chest-supported-row": { "name": "Chest Supported Row" },
+    "military-press": { "name": "Military Press" },
+    "machine-chest-press": { "name": "Machine Chest Press" },
+    "pull-up": { "name": "Pull Ups / Machine Rows" },
+    "dumbbell-curl": { "name": "Dumbbell Curls" },
+    "machine-tricep-dip": { "name": "Machine Tricep Dip" },
+
+    "leg-press": { "name": "Leg Press" },
+    "db-stiff-leg-deadlift": { "name": "Dumbbell Stiff Leg Deadlifts" },
+    "hack-squat": { "name": "Hack Squat" },
+    "seated-leg-curl": { "name": "Seated Leg Curl" },
+    "leg-press-calf-raise": { "name": "Leg Press Calf Raise" },
+    "hyperextension": { "name": "Hyperextension" }
+  },
+
+  "workouts": [
+    {
+      "id": "upper-a",
+      "name": "Upper A",
+      "exerciseSlots": [
+        { "exerciseId": "bench-press",              "sets": 3, "repRange": [6, 12],  "rest": 150, "negatives": false },
+        { "exerciseId": "barbell-row",              "sets": 3, "repRange": [6, 12],  "rest": 150, "negatives": false },
+        { "exerciseId": "seated-db-shoulder-press", "sets": 3, "repRange": [8, 12],  "rest": 120, "negatives": false },
+        { "exerciseId": "pec-dec",                  "sets": 2, "repRange": [10, 12], "rest": 90,  "negatives": true  },
+        { "exerciseId": "v-bar-lat-pulldown",       "sets": 2, "repRange": [10, 12], "rest": 90,  "negatives": true  },
+        { "exerciseId": "side-lateral-raise",       "sets": 4, "repRange": [12, 20], "rest": 60,  "negatives": false },
+        { "exerciseId": "reverse-pec-dec",          "sets": 3, "repRange": [15, 20], "rest": 60,  "negatives": false },
+        { "exerciseId": "cable-tricep-extension",   "sets": 3, "repRange": [8, 12],  "rest": 90,  "negatives": true  },
+        { "exerciseId": "cable-curl",               "sets": 3, "repRange": [8, 12],  "rest": 90,  "negatives": true  }
+      ]
+    },
+    {
+      "id": "lower-a",
+      "name": "Lower A",
+      "exerciseSlots": [
+        { "exerciseId": "squat",               "sets": 3, "repRange": [6, 12],  "rest": 180, "negatives": false },
+        { "exerciseId": "stiff-leg-deadlift",  "sets": 3, "repRange": [8, 12],  "rest": 150, "negatives": false },
+        { "exerciseId": "leg-extension",       "sets": 2, "repRange": [10, 12], "rest": 90,  "negatives": true  },
+        { "exerciseId": "leg-curl",            "sets": 2, "repRange": [10, 12], "rest": 90,  "negatives": true  },
+        { "exerciseId": "standing-calf-raise", "sets": 2, "repRange": [10, 15], "rest": 60,  "negatives": false },
+        { "exerciseId": "seated-calf-raise",   "sets": 2, "repRange": [10, 12], "rest": 60,  "negatives": true  },
+        { "exerciseId": "cable-pull-through",  "sets": 3, "repRange": [10, 12], "rest": 90,  "negatives": false },
+        { "exerciseId": "cable-crunch",        "sets": 3, "repRange": [10, 12], "rest": 60,  "negatives": true  }
+      ]
+    },
+    {
+      "id": "upper-b",
+      "name": "Upper B",
+      "exerciseSlots": [
+        { "exerciseId": "incline-db-bench-press", "sets": 3, "repRange": [8, 12],  "rest": 150, "negatives": false },
+        { "exerciseId": "chest-supported-row",    "sets": 3, "repRange": [8, 12],  "rest": 120, "negatives": false },
+        { "exerciseId": "military-press",         "sets": 3, "repRange": [8, 12],  "rest": 150, "negatives": false },
+        { "exerciseId": "machine-chest-press",    "sets": 2, "repRange": [8, 12],  "rest": 90,  "negatives": true  },
+        { "exerciseId": "pull-up",                "sets": 2, "repRange": [8, 12],  "rest": 90,  "negatives": true  },
+        { "exerciseId": "reverse-pec-dec",        "sets": 3, "repRange": [15, 20], "rest": 60,  "negatives": false },
+        { "exerciseId": "side-lateral-raise",     "sets": 2, "repRange": [12, 20], "rest": 60,  "negatives": false },
+        { "exerciseId": "dumbbell-curl",          "sets": 3, "repRange": [8, 12],  "rest": 90,  "negatives": true  },
+        { "exerciseId": "machine-tricep-dip",     "sets": 3, "repRange": [8, 12],  "rest": 90,  "negatives": true  }
+      ]
+    },
+    {
+      "id": "lower-b",
+      "name": "Lower B",
+      "exerciseSlots": [
+        { "exerciseId": "leg-press",             "sets": 3, "repRange": [10, 20], "rest": 150, "negatives": false },
+        { "exerciseId": "db-stiff-leg-deadlift", "sets": 3, "repRange": [8, 12],  "rest": 120, "negatives": false },
+        { "exerciseId": "hack-squat",            "sets": 2, "repRange": [8, 12],  "rest": 120, "negatives": false },
+        { "exerciseId": "seated-leg-curl",       "sets": 2, "repRange": [10, 12], "rest": 90,  "negatives": true  },
+        { "exerciseId": "leg-press-calf-raise",  "sets": 3, "repRange": [10, 15], "rest": 60,  "negatives": false },
+        { "exerciseId": "hyperextension",        "sets": 3, "repRange": [10, 12], "rest": 60,  "negatives": false }
+      ]
+    }
+  ]
+}
